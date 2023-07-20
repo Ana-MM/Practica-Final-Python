@@ -44,19 +44,6 @@ def crear_matriz(size):
 resultado = crear_matriz(size)
 print ("Matriz de numeros:", resultado["matriz"])
 
-
-# # Sumar cada fila
-# sumas_filas = []
-# for fila in matriz:
-#     suma_fila = sum(fila)
-#     sumas_filas.append(suma_fila)
-
-# # Sumar cada columna
-# sumas_columnas = []
-# for c in range(columns):
-#     suma_columna = sum(fila[c] for fila in matriz)
-#     sumas_columnas.append(suma_columna)
-
 # Imprimir las sumas de cada fila
 print("Sumas de cada fila:", resultado["suma_filas"])
 
